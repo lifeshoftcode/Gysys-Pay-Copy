@@ -1,0 +1,39 @@
+# Proyecto de Pago en Línea
+
+Este proyecto es una aplicación de pago en línea que consta de un servidor backend y una aplicación frontend.
+
+## Estructura del Proyecto
+
+El proyecto está dividido en dos partes principales: `client` y `server`.
+
+### Cliente
+
+La carpeta `client` contiene la aplicación frontend construida con React. Aquí están los directorios y archivos más importantes:
+
+- `src/`: Contiene todo el código fuente de la aplicación React.
+- `src/app/`: Contiene la configuración de la tienda Redux.
+- `src/features/`: Contiene las características de la aplicación, cada una en su propia carpeta.
+- `src/view/`: Contiene los componentes y páginas de la aplicación.
+- `package.json`: Define las dependencias y scripts del proyecto.
+
+### Servidor
+
+La carpeta `server` contiene el servidor backend construido con Express. Aquí están los directorios y archivos más importantes:
+
+- `src/`: Contiene todo el código fuente del servidor Express.
+- `src/api/`: Contiene las rutas y controladores de la API.
+- `src/models/`: Contiene los modelos de Sequelize para interactuar con la base de datos.
+- `src/database.js`: Configura y exporta la instancia de Sequelize.
+- `package.json`: Define las dependencias y scripts del proyecto.
+
+## Cómo ejecutar el proyecto
+
+Para ejecutar este proyecto, necesitarás tener Node.js y npm instalados. Sigue estos pasos:
+
+1. Clona el repositorio.
+2. Entra en la carpeta `client` y ejecuta `npm install` para instalar las dependencias del cliente.
+3. Entra en la carpeta `server` y ejecuta `npm install` para instalar las dependencias del servidor.
+4. En la carpeta `server`, ejecuta `npm run dev` para iniciar el servidor en modo de desarrollo.
+5. En la carpeta `client`, ejecuta `npm run dev` para iniciar la aplicación React en modo de desarrollo.
+
+Ahora deberías poder acceder a la aplicación en `http://localhost:5000` (o el puerto que hayas configurado).

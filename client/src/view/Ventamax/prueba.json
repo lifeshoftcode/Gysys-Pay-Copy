@@ -1,0 +1,54 @@
+{
+  "customer": {
+    "id": "JSD789V",
+    "firstName": "Carlos",
+    "lastName": "González",
+    "email": "carlos.gonzalez88@example.com",
+    "phoneNumber": "8497654321"
+  },
+  "address": {
+    "street": "Avenida Bolívar, #47, Bella Vista",
+    "city": "Santiago",
+    "state": "Santiago",
+    "country": "DO",
+    "postalCode": "51000"
+  },
+  "applicationDetails":{
+    "token": "abc123xyz"
+},
+  "order": {
+    "id": "Order759",
+    "currency": "DOP",
+    "items": [
+      {
+        "id": "Pr-12abc-xyz-3",
+        "name": "SmartView Elite",
+        "price": 75000,
+        "quantity": 1,
+        "subscriptionPeriod": "12-Months",
+        "features": ["HD Display", "Control Remoto por Voz"]
+      },
+      {
+        "id": "Pr-34def-xyz-4",
+        "name": "UltraSound Pro",
+        "price": 50000,
+        "quantity": 2,
+        "subscriptionPeriod": "6-Months",
+        "features": ["Sonido Envolvente", "Bluetooth"]
+      },
+      {
+        "id": "Pr-56ghi-xyz-5",
+        "name": "EcoLight Spectrum",
+        "price": 20000,
+        "quantity": 3,
+        "subscriptionPeriod": "24-Months",
+        "features": ["Ahorro Energético", "Larga Duración"]
+      }
+    ],
+    "subTotal": 210000,
+    "tax": 0,
+    "discount": 5000,
+    "shipping": 2000,
+    "totalAmount": 207000
+  }
+}

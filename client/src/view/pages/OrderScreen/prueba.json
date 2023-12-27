@@ -1,0 +1,80 @@
+[
+    {
+        "iid": 4,
+        "orderId": 20,
+        "productId": 4,
+        "quantity": 1,
+        "price": 75000,
+        "createdAt": "2023-12-17T21:35:45.000Z",
+        "updatedAt": "2023-12-17T21:35:45.000Z",
+        "Product": {
+            "iid": 4,
+            "id": "Pr-12abc-xyz-3",
+            "name": "SmartView Elite",
+            "tax": 0,
+            "features": [
+                "HD Display",
+                "Control Remoto por Voz"
+            ],
+            "discount": 0,
+            "price": 75000,
+            "quantity": 1,
+            "description": "",
+            "subscriptionPeriod": "12-Months",
+            "createdAt": "2023-12-16T18:28:49.000Z",
+            "updatedAt": "2023-12-16T18:28:49.000Z"
+        }
+    },
+    {
+        "iid": 5,
+        "orderId": 20,
+        "productId": 5,
+        "quantity": 2,
+        "price": 50000,
+        "createdAt": "2023-12-17T21:35:45.000Z",
+        "updatedAt": "2023-12-17T21:35:45.000Z",
+        "Product": {
+            "iid": 5,
+            "id": "Pr-34def-xyz-4",
+            "name": "UltraSound Pro",
+            "tax": 0,
+            "features": [
+                "Sonido Envolvente",
+                "Bluetooth"
+            ],
+            "discount": 0,
+            "price": 50000,
+            "quantity": 2,
+            "description": "",
+            "subscriptionPeriod": "6-Months",
+            "createdAt": "2023-12-17T21:35:45.000Z",
+            "updatedAt": "2023-12-17T21:35:45.000Z"
+        }
+    },
+    {
+        "iid": 6,
+        "orderId": 20,
+        "productId": 6,
+        "quantity": 3,
+        "price": 20000,
+        "createdAt": "2023-12-17T21:35:45.000Z",
+        "updatedAt": "2023-12-17T21:35:45.000Z",
+        "Product": {
+            "iid": 6,
+            "id": "Pr-56ghi-xyz-5",
+            "name": "EcoLight Spectrum",
+            "tax": 0,
+            "features": [
+                "Ahorro Energético",
+                "Larga Duración"
+            ],
+            "discount": 0,
+            "price": 20000,
+            "quantity": 3,
+            "description": "",
+            "subscriptionPeriod": "24-Months",
+            "createdAt": "2023-12-17T21:35:45.000Z",
+            "updatedAt": "2023-12-17T21:35:45.000Z"
+        }
+    }
+]
